@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+   <link rel="shortcut icon" href="#" />
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" type="text/css" href="buttons.css">
+   <title>Графы</title>
+</head>
+
+<!-- <div id="button">  
+   <button id="first">1 и 3</button>
+   <button id="second">2 и 4</button>
+   <button id="third">5 и 6</button> -->
+   <!-- <button id="seventh">7</button>
+   <button id="eigth">8</button>
+   <button id="ninth">9</button>
+   <button id="tenth">10</button>
+   <button id="eleventh">11</button> -->
+<!-- </div> -->
+
+<body>
+   <div id="one">
+      <div class="container">
+         <div class="input_output">
+            <h1>Задания по графам</h1>
+            <h4>Введите список смежности</h4>
+            <p>Пример<br>
+               4 4<br>
+               1 2<br>
+               2 3<br>
+               1 3<br>  
+               2 4<br>
+            </p>
+            <b>Input</b><br>
+            <textarea id="input" rows="15" cols="20" contenteditable="true" placeholder="Введите список смежности"></textarea> 
+         <br><button id="run">Вывести граф</button>
+         <br><button id="dfs">DFS</button>
+         <button id="bfs">BFS</button>
+         <br><button id="dfsPath1">Проверка DFS</button>
+         <button id="bfsPath1">Проверка BFS</button>
+         <br>
+         <textarea name="input1" id="input1" cols="10" rows="2" placeholder="введите ответ через пробел"></textarea>
+         <br><input id="newRoot" /> -->
+         <!-- <button id="changeRoot">Изменить корень</button>
+         <h4 id="textGraph"></h4>
+         <br><button id="check">Check</button> -->
+         </div>
+         <div class="svgContainer">
+            <svg id="svgArea">
+            </svg>
+         </div>
+      </div>
+   </div>
+  
+
+   <script src="script.js"></script>
+   <script src="graph.js"></script>
+   <script src="draw.js"></script>
+   <script src="animate.js"></script>
+   <!-- подключение бибилиотеки jQuery   -->
+   <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<!-- подключение бибилиотеки jQueryUI -->
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="onejs.js"></script>
+    <script type="text/javascript" src="123.js"></script>
+</body>
+
+</html>
+
+<!--
+   13 15
+   1 2
+   1 3
+   2 4
+   2 3
+   2 5
+   3 6
+   5 7
+   5 8
+   5 9
+   9 12
+   9 13
+   6 10
+   6 11
+   5 6
+   9 3
+-->
